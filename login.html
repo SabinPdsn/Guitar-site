@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div id="bigbox">
+      <div class="image">
+        <img src="./image/pic.png" alt="" />
+      </div>
+      <div class="forms">
+        <h1>Hello Again!</h1>
+
+        <span>Welcome back you have been missed!</span>
+        <form action="#">
+          <div id="errormessage">Invalid Credentials</div>
+
+          <input type="text" id="username" placeholder="Enter Username" />
+          <br />
+          <input type="password" id="password" placeholder="password" /><br />
+        </form>
+        <br />
+        <input type="checkbox" id="checkbox" onclick="showpass()" />Show
+        Password <a href="#">Recovery Password</a>
+
+        <br />
+        <button onclick="myfunction()">Sign in</button>
+        <div id="icons">
+          <a href="https://www.google.com" target="_blank"
+            ><i class="fa-brands fa-google" style="color: rgb(233, 143, 25)"></i
+          ></a>
+          <a href="https://www.apple.com" target="_blank">
+            <i class="fa-brands fa-apple" style="color: black"></i
+          ></a>
+          <a href="https://www.facebook.com" target="_blank">
+            <i class="fa-brands fa-facebook" style="color: blue"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
